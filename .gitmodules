@@ -28,3 +28,6 @@
 [submodule "web"]
 	path = web
 	url = https://codeberg.org/oSoWoSo/vb-web
+[submodule "docker"]
+	path = docker
+	url = https://codeberg.org/oSoWoSo/vb-docker
