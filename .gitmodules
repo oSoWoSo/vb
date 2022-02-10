@@ -25,3 +25,6 @@
 [submodule "vpm"]
 	path = vpm
 	url = https://codeberg.org/oSoWoSo/vpm2
+[submodule "web"]
+	path = web
+	url = https://codeberg.org/oSoWoSo/vb-web
