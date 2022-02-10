@@ -7,6 +7,8 @@
 ## Operation System for desktop on top of excellent Void and 64bit
 
 # PROJECT LINKS:
+
+[![Codeberg](/assets/img/visit.svg)](https://codeberg.org/oSoWoSo/vb)
  
 <a href="https://sourceforge.net/p/vb-linux/"><img alt="Download vb-linux" src="https://sourceforge.net/sflogo.php?type=17&group_id=3476392" width=200></a>
 
@@ -22,11 +24,9 @@ sourceforge
 
 [![sourceforge](https://img.shields.io/sourceforge/dt/vb-linux.svg)](https://sourceforge.net/projects/vb-linux/files/latest/download)
 
-~~ First release!
+ First release!
  02.02.2022
- version Alpha 0.1 ~~
-
- BORKED!
+ version Alpha 0.1
  
 ## Expect bugs, not finished features and a lot incoming changes...
 
