@@ -1,0 +1,27 @@
+[submodule "VUR"]
+	path = VUR
+	url = https://codeberg.org/oSoWoSo/V.U.R
+[submodule "mklive"]
+	path = mklive
+	url = https://codeberg.org/oSoWoSo/vb-mklive
+[submodule "builds"]
+	path = builds
+	url = https://codeberg.org/oSoWoSo/vb-builds
+[submodule "scripts"]
+	path = scripts
+	url = https://codeberg.org/oSoWoSo/vb-scripts
+[submodule "runit"]
+	path = runit
+	url = https://codeberg.org/oSoWoSo/vb-runit
+[submodule "dt-dark-theme"]
+	path = dt-dark-theme
+	url = https://codeberg.org/oSoWoSo/dt-dark-theme
+[submodule "dotfiles"]
+	path = dotfiles
+	url = https://codeberg.org/oSoWoSo/vb-dotfiles
+[submodule "artwork"]
+	path = artwork
+	url = https://codeberg.org/oSoWoSo/vb-artwork
+[submodule "vpm"]
+	path = vpm
+	url = https://codeberg.org/oSoWoSo/vpm2
