@@ -12,7 +12,7 @@
 
  2. boot it up
  
- 3. run ``wget https://codeberg.org/oSoWoSo/vb-first/raw/branch/main/scripts/vb.sh vb.sh``
+ 3. run ``wget https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh``
 
  4. run ``chmod +x vb.sh``
 
