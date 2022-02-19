@@ -12,16 +12,13 @@
  
  2. boot it up
 
- 3. in terminal run:
+ 3. in terminal run: `sudo xbps-install -S curl` (curl not on base cd)
 
-      `wget https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh && chmod +x vb.sh`
-      
-      or
-      
+      and then
+
       `curl https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh -o vb.sh && chmod +x vb.sh`
 
-
-  4. run `./vb.sh`
+ 4. run `./vb.sh`
 
 # PROJECT LINKS:
 
