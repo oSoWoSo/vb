@@ -6,17 +6,22 @@
 # **vb** aka **VoidGNU/Linux**
 ## Operation System for desktop on top of excellent Void and 64bit
 
-### How to Install?
+### How to?
 
  1. download original void iso [here](https://alpha.de.repo.voidlinux.org/live/current/)
-
- 2. boot it up
  
- 3. run ``wget https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh``
+ 2. boot it up
 
- 4. run ``chmod +x vb.sh``
+ 3. in terminal run:
 
- 5. run ``./vb.sh``
+      `wget https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh && chmod +x vb.sh`
+      
+      or
+      
+      `curl https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh -o vb.sh && chmod +x vb.sh`
+
+
+  4. run `./vb.sh`
 
 # PROJECT LINKS:
 
