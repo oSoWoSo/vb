@@ -1,3 +1,4 @@
+# vb readme
 ![void](/assets/img/void_bg_christmas.png)
 
 # Welcome our  website
@@ -6,19 +7,48 @@
 # **vb** aka **VoidGNU/Linux**
 ## Operation System for desktop on top of excellent Void and 64bit
 
-### How to?
+  [void linux](https://voidlinux.org)
 
- 1. download original void iso [here](https://alpha.de.repo.voidlinux.org/live/current/)
- 
- 2. boot it up
+# What is void linux?
 
- 3. in terminal run: `sudo xbps-install -S curl` (curl not on base cd)
+  you don't know?
 
-      and then
+###  you can try online
 
-      `curl https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh -o vb.sh && chmod +x vb.sh`
+ 1. open [distrotest](https://distrotest.net/VoidLinux)
 
- 4. run `./vb.sh`
+ 2. choose desired desktop and click >start<
+
+# vb aka GNU/Linux installer and manager
+
+dependencies: `bash` , `curl` and `mtools`
+
+optional: `fzf` , `gparted` and `xtools`(xcheckrestart)
+
+
+### If you want to contribute, fork this repository...
+
+ or from terminal:
+  
+  `git clone https://codeberg.org/oSoWoSo/vb-scripts`
+
+### If you want try vb aka GNU/Linux or vb installator/manager
+  
+  in terminal:
+
+  `wget https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh && chmod +x vb.sh`
+  
+  or
+  
+  `curl https://codeberg.org/oSoWoSo/vb-scripts/raw/branch/main/vb.sh -o vb.sh && chmod +x vb.sh`
+
+  run
+  
+  `./vb.sh`
+
+  Enjoy!
+
+  Help me make it better if you can!
 
 # PROJECT LINKS:
 
