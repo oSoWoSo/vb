@@ -1,19 +1,21 @@
-name: Check PR
+pipeline:
+  build:
+    image: ubuntu-18.04
+    commands:
+    
+      echo Check PR
 
-on: pull_request
-
-jobs:
   # Lint changed templates.
   xlint:
     name: Lint templates
-    runs-on: ubuntu-18.04
+    image: ubuntu-18.04
 
     env:
       PATH: '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/bin:/tmp/bin'
       XLINT: '1'
       LICENSE_LIST: common/travis/license.lst
 
-    steps:
+    command:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 200
@@ -26,7 +28,7 @@ jobs:
   # Build changed packages.
   build:
     name: Build packages
-    runs-on: ubuntu-18.04
+    image: ubuntu-18.04
     if: "!contains(github.event.pull_request.title, '[ci skip]') && !contains(github.event.pull_request.body, '[ci skip]')"
 
     container:
@@ -50,7 +52,7 @@ jobs:
           - { arch: armv6l-musl, bootstrap: x86_64-musl, test: 0 }
           - { arch: aarch64-musl, bootstrap: x86_64-musl, test: 0 }
 
-    steps:
+    command:
       - name: Prepare container
         run: |
           # Sync and upgrade once, assume error comes from xbps update
