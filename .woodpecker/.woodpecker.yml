@@ -2,8 +2,10 @@ pipeline:
   build:
     image: ubuntu-18.04
     commands:
-    
-      echo Check PR
+      - go get
+      - go mod init
+      - go build
+      - go test
 
   # Lint changed templates.
   xlint:
@@ -94,4 +96,3 @@ pipeline:
           here="$(pwd)"
           cd /
           "$here/common/travis/check-install.sh" "$BOOTSTRAP" "$ARCH"
-          )
