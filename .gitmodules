@@ -22,12 +22,12 @@
 [submodule "artwork"]
 	path = artwork
 	url = https://codeberg.org/oSoWoSo/vb-artwork
-[submodule "vpm"]
-	path = vpm
-	url = https://codeberg.org/oSoWoSo/vpm2
 [submodule "web"]
 	path = web
 	url = https://codeberg.org/oSoWoSo/vb-web
 [submodule "docker"]
 	path = docker
 	url = https://codeberg.org/oSoWoSo/vb-docker
+[submodule "vbm"]
+	path = vbm
+	url = https://codeberg.org/oSoWoSo/vbm
